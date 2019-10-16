@@ -34,7 +34,6 @@ window.onload = () => {
     }
     else {
       if(buttonElement.innerHTML == 'Reset') {
-        grailButtonElement.classList.add('d-none')
         buttonElement.innerHTML = 'Journey onwards'
         index = 0
         displayItem(index)
@@ -43,9 +42,13 @@ window.onload = () => {
     if(index == maxLevel) {
       grailButtonElement.classList.remove('d-none')
       buttonElement.innerHTML = 'Reset'
+      buttonElement.classList.add('d-none')
     }
   })
   grailButtonElement.addEventListener('click', () => {
+    buttonElement.innerHTML = 'Reset'
+    grailButtonElement.classList.add('d-none')
+    buttonElement.classList.remove('d-none')
     titleElement.innerHTML = 'Grail found!'
     itemElement.innerHTML = getRandomItemFromLevel(jsonYML.Grails)
   })
