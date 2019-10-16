@@ -14,6 +14,11 @@ function getRandomItemFromLevel(levelIndex) {
   return list[Math.floor((Math.random() * list.length))]
 }
 
+function getRandomGrail() {
+  let list = jsonYML.Grails
+  return list[Math.floor((Math.random() * list.length))]
+}
+
 function displayItem (index) {
   titleElement.innerHTML = levelKeys[index]
   itemElement.innerHTML = getRandomItemFromLevel(index)
@@ -23,6 +28,7 @@ function setElements() {
   buttonElement = document.querySelector('#randomButton')
   titleElement = document.querySelector('#title')
   itemElement = document.querySelector('#level-item')
+  grailButtonElement = document.querySelector('#grail-button')
 }
 
 window.onload = () => {
@@ -34,15 +40,22 @@ window.onload = () => {
     }
     else {
       if(buttonElement.innerHTML == 'Reset') {
+        grailButtonElement.classList.add('invisible')
         buttonElement.innerHTML = 'Journey onwards'
         index = 0
         displayItem(index)
       }
       else {
+        grailButtonElement.classList.remove('invisible')
         titleElement.innerHTML = 'Stage'
         itemElement.innerHTML = ''
         buttonElement.innerHTML = 'Reset'
       }
     }
+  })
+  grailButtonElement.addEventListener('click', () => {
+    console.log("se")
+    titleElement.innerHTML = 'Grail found!'
+    itemElement.innerHTML = getRandomGrail()
   })
 };
