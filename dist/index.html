@@ -1,18 +1,42 @@
 <!doctype html>
 <html>
   <head>
-    <title>YML</title>
-  </head>
+    <title>Path</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  </head>
+
   <body>
-    <div>
-      <h2 id="title"></h2>
-      <p id="level-item"></p>
-      <button 
-        id="randomButton"
-        type="button">
-        Next level
-      </button>
+
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="https://github.com/mjy/path">About</a>
+      </li>
+    </ul>
+
+    <div class="jumbotron">
+      <h1 class="display-4">Path!</h1>
+      <p class="lead">Wander the path to a holy grail of biodiversity informatics.</p>
+      <hr class="my-4">
+      <div>
+
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" id="title"></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><!-- maybe progress curve stat here (or step count or something) --></h6>
+            <p class="card-text" id="level-item"><em> the path lies ahead </em> </p>
+          </div>
+        </div>
+
+        <br>
+
+        <button class="btn btn-primary btn-lg" 
+                id="randomButton"
+                type="button">
+          Step along the path
+        </button>
+      </div>
     </div>
+
     <script src="./main.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-const jsonYML = require("json-loader!yaml-loader!../path_stub.yml");
+const jsonYML = require("json-loader!yaml-loader!../path.yml");
 const levels = jsonYML.Stages
 const levelKeys = Object.keys(levels)
 const maxLevel = levelKeys.length
@@ -34,7 +34,7 @@ window.onload = () => {
     }
     else {
       if(buttonElement.innerHTML == 'Reset') {
-        buttonElement.innerHTML = 'Next level'
+        buttonElement.innerHTML = 'Journey onwards'
         index = 0
         displayItem(index)
       }
