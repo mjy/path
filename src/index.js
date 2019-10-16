@@ -3,6 +3,10 @@ const levels = jsonYML.Stages
 const levelKeys = Object.keys(levels)
 const maxLevel = levelKeys.length
 
+var buttonElement
+var titleElement
+var itemElement
+
 var index = 0
 
 function getRandomItemFromLevel(levelIndex) {
@@ -11,15 +15,34 @@ function getRandomItemFromLevel(levelIndex) {
 }
 
 function displayItem (index) {
-  document.querySelector('#title').innerHTML = levelKeys[index]
-  document.querySelector('#level-item').innerHTML = getRandomItemFromLevel(index)
+  titleElement.innerHTML = levelKeys[index]
+  itemElement.innerHTML = getRandomItemFromLevel(index)
+}
+
+function setElements() {
+  buttonElement = document.querySelector('#randomButton')
+  titleElement = document.querySelector('#title')
+  itemElement = document.querySelector('#level-item')
 }
 
 window.onload = () => {
-  document.querySelector('#randomButton').addEventListener('click', () => { 
+  setElements()
+  buttonElement.addEventListener('click', () => { 
     if(index < maxLevel) {
       displayItem(index)
       index++
+    }
+    else {
+      if(buttonElement.innerHTML == 'Reset') {
+        buttonElement.innerHTML = 'Next level'
+        index = 0
+        displayItem(index)
+      }
+      else {
+        titleElement.innerHTML = 'Stage'
+        itemElement.innerHTML = ''
+        buttonElement.innerHTML = 'Reset'
+      }
     }
   })
 };
