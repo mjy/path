@@ -4,7 +4,7 @@
   "description": "a maze of twisty little ideas, all alike",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx webpack -o docs/main.js"
+    "build": "npx webpack -o docs/main.js --mode='production'"
   },
   "repository": {
     "type": "git",
