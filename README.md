@@ -2,9 +2,11 @@
 
 A maze of twisty little ideas (about biodiversity informatics), all alike.
 
+[Journey on](https://mjy.github.io/path/).
+
 # Disclaimer
 
-This list is meant to be a light-hearted, sometimes slightly opinionated poke at all things Biodiversity Informatics. Any reference
+This project is meant to be a light-hearted, sometimes slightly opinionated poke at all things Biodiversity Informatics. Any reference
 to specific technologies, events, concepts, people or ideas (including those that sound awfully autobiographical) is for the purposes of humour only. YRMV.
 
 This was originally conceived as the basis for a Biodiversity 101 Talk for BiodiversityNext 2019.
@@ -13,7 +15,7 @@ This was originally conceived as the basis for a Biodiversity 101 Talk for Biodi
 
 [José Luis Pereira](https://github.com/jlpereira) build the interactive website.
 
-The initial list of ideas was dumped during a couple hours of self-reflection, many are memes, tropes, etc.  that most certainly did not originate with the original author. We'll be cross-referencing as time goes on.  Feel free to PR with a citaion to the source of any point.
+The initial list of ideas was dumped during a couple hours of self-reflection, many are memes, tropes, etc.  that most certainly did not originate with the original author. We'll be cross-referencing as time goes on.  Feel free to PR with a citation to the source of any point.
 
 # Organization
 ## Grails
