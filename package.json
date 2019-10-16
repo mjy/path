@@ -1,0 +1,26 @@
+{
+  "name": "path",
+  "version": "1.0.0",
+  "description": "a maze of twisty little ideas, all alike",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjy/path.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjy/path/issues"
+  },
+  "homepage": "https://github.com/mjy/path#readme",
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "yaml-loader": "^0.5.0"
+  }
+}
