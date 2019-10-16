@@ -9,6 +9,8 @@ A maze of twisty little ideas (about biodiversity informatics), all alike.
 This project is meant to be a light-hearted, sometimes slightly opinionated poke at all things Biodiversity Informatics. Any reference
 to specific technologies, events, concepts, people or ideas (including those that sound awfully autobiographical) is for the purposes of humour only. YRMV.
 
+This is not a website to promote your tools, but rather the concepts behind the tools.
+
 This was originally conceived as the basis for a Biodiversity 101 Talk for BiodiversityNext 2019.
 
 # Acknowledgements
@@ -38,7 +40,13 @@ There are real ways to "level up". Check out and participate in these initiative
 * [Data Carpentry ](https://datacarpentry.org/)
 
 # Contributing
-Pull request or issues welcome, please share.
+
+For now, open a [Waypoint issue](https://github.com/mjy/path/issues/new?assignees=&labels=Waypoint&template=new-waypoint.md&title=%5BWaypoint+-+Level+N%5D) or make a PR.
+
+Moving forward, a potential model: 
+
+* Open an issue or PR with a single contribution
+* Once that issue or PR gets 5(?) likes from the community it is added to the list.
 
 # License
 CC 0, but if you make money off this list you should donate all of it to a Natural History Collection that employs taxonomists and collection managers (and taxonomists who manage collections).
