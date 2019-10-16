@@ -80,7 +80,7 @@ Stages:
   Level 8:
     - Lead the development of a OBO foundry accepted Ontology
     - Replace a whole pile of your day to day scripts with sed, awk, and friends
-    - You remember backups, and employ a system to deploy your infrastructure (data and apps) to Docker, your institution's Library, some university across the ocean as an image, your tape backup, your brother-in-laws Synology Unit
+    - You remember backups, and employ a system to deploy your infrastructure (data and apps) to Docker, your institution's Library, some university across the ocean as an image, your tape backup, your brother-in-law's Synology Unit
     - Gain sleep at night because you used Continuous Integration to test your software
     - Produce a (biological) <em>Gold Standard</em> dataset that becomes the source for engineering competitions
     - Worry about the difference between functional and object-oriented languages, and what impact both may have on the science you do
