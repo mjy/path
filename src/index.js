@@ -30,7 +30,6 @@ window.onload = () => {
   buttonElement.addEventListener('click', () => { 
     if(index < maxLevel) {
       displayItem(index)
-      index++
     }
     else {
       if(buttonElement.innerHTML == 'Reset') {
@@ -39,6 +38,9 @@ window.onload = () => {
         displayItem(index)
       }
     }
+    
+    index++
+
     if(index == maxLevel) {
       grailButtonElement.classList.remove('d-none')
       buttonElement.innerHTML = 'Reset'
