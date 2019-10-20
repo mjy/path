@@ -21,9 +21,11 @@ Stages:
     - Read a file via a script you wrote, a FASTA file
     - Bang your head on regular expressions because you want to convert the DNA in that FASTA file to AA
     - Write a file via script
+    - You grok <a href="http://drivendata.github.io/cookiecutter-data-science/">Cookie Cutter Data Science</a>
     - IRL, feel BLUE, <a href="https://www.biodiversityliteracy.com/">Biodiversity Literacy in Undergraduate Education</a>  
   Level 4:
     - Git, remember?
+    - Use R to learn about mapping to Darwin Core thanks to the <a href="https://github.com/trias-project/checklist-recipe/wiki/Getting-started">Checklist Recipie Tutorial</a>
     - Use what you learned in the Software Carpentry class to finish your tenure-seeking prof's request in little under an hour, reap the rewards of their appreciation
     - Realize there is no way in hell you're formatting those 1k specimens into a material examined section by hand every time you publish a paper, write a database report or 4k line script to do it for you, rejoice when the reviewer tells you to sort by "A" when you did "B" and it takes you three seconds to finish
     - Help move to your labs documents to Google Docs/Sheets/Drive, worry about Big Brother reading everything, but have too much fun doing science to think about it
@@ -111,6 +113,7 @@ Stages:
     - Wonder how Darwin did all that stuff without GUIDs?
     - Test limits to triple stores because wouldn't it be nice if everything is a triple? Realize biology is kinda grand in scale.
     - Wiki, Graph database, or Relational?  Yes.
+    - Participate in an R/Python/Ruby for biodiversity informatics workshop to see what those crazy kids are doing these days (teach an old dog new tricks)
   Level 10:
     - Design and implement out a universal persistent identifier model that works for biology (assumes you passed on to another plane of existence)
     - 42
