@@ -1,7 +1,6 @@
 # path.yml
 --- 
 Grails:
-  - AI measurements of specimen images
   - Link a taxonomist's phenotypes to genomicist's genotypes
   - Create the Graph of Life (on just 2 axes, no, no, not that kind of graph)
   - Identify the Earth's species
@@ -99,6 +98,7 @@ Stages:
     - Wonder why the recommended standard for displaying a DOI is not followed by one of the largest DOI providers, fork you scraping code to accomodate
     - Write a protein folding algorithm
     - Actually build an application on SPARQL endpoints
+    - AI augmented measurements of specimen morphology
   Level 9:
     - Become the director of the global biodiversity informatics organization
     - You assume the maintenance of a well established open source library, the community loves you
@@ -117,6 +117,6 @@ Stages:
     - Wiki, Graph database, or Relational?  Yes.
     - Participate in an R/Python/Ruby for biodiversity informatics workshop to see what those crazy kids are doing these days (teach an old dog new tricks)
   Level 10:
-    - Taxonomies used by global biodiversity platforms seamlessly integrate the true phylogenetic information contained within local uses of informal (aggregate) names across space and time.
+    - Taxonomies used by global biodiversity platforms seamlessly integrate the true phylogenetic information contained within local uses of informal (aggregate) names across space and time
     - Design and implement out a universal persistent identifier model that works for biology (assumes you passed on to another plane of existence)
     - 42
