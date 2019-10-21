@@ -73,6 +73,7 @@ Stages:
     - Master Vim or Emacs as your primary code editor, fret when the key-binds you use aren't available in your collaborators collaborative document editor of choice
     - Contribute to the definitions of classes in an OBO Foundry ontology 
     - Adopt LSIDs
+    - Discover <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">RDF</a>
     - Wonder why folks get all worked up about Citation Metrics, i.e. another way bad-actors will game the system, when admins should focus on getting to know their scientists, it's not rocket science, good people are good
     - Share the results of that 20 year old database to the rest of the world via an API
     - Find OpenRefine, wonder why you didn't do this at Level 2
@@ -98,6 +99,7 @@ Stages:
     - Wonder why the recommended standard for displaying a DOI is not followed by one of the largest DOI providers, fork you scraping code to accomodate
     - Write a protein folding algorithm
     - Actually build an application on SPARQL endpoints
+    - Contribute to <a href="http://uberon.github.io/about.html">UBERON</a>
     - AI augmented measurements of specimen morphology
   Level 9:
     - Become the director of the global biodiversity informatics organization
