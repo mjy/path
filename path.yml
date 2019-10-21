@@ -1,6 +1,7 @@
 # path.yml
 --- 
 Grails:
+  - AI measurements of specimen images
   - Link a taxonomist's phenotypes to genomicist's genotypes
   - Create the Graph of Life (on just 2 axes, no, no, not that kind of graph)
   - Identify the Earth's species
