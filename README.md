@@ -11,7 +11,7 @@ to specific technologies, events, concepts, people or ideas (including those tha
 
 This is not a website to promote your tools, but rather the concepts behind the tools.
 
-This was originally conceived as the basis for a Biodiversity 101 Talk for BiodiversityNext 2019.
+This was originally conceived as the basis for a [Biodiversity 101 Workshop](https://github.com/tdwg/curriculum/blob/master/biodiversity-informatics-101/bi101_schedule_2019.md) talk at BiodiversityNext 2019.
 
 # Acknowledgements
 
@@ -58,7 +58,7 @@ Moving forward, a potential model:
 * Once that issue or PR gets 5(?) likes from the community it is added to the list.
 
 # License
-CC 0, but if you make money off this list you should donate all of it to a Natural History Collection that employs taxonomists and collection managers (and taxonomists who manage collections).
+CC 0, but if you make money off this list you should donate all of it to a Natural History Collection that employs taxonomists and collection managers (and taxonomists who manage collections, and collection managers who are taxonomists).
 
 # Building the site
 
