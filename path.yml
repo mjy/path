@@ -64,6 +64,7 @@ Stages:
     - Come across some weird biodiversity informatics project and realize its interfaces SUCK, use your degree in Design to radically improve the software as an hourly
     - "ruby -e 'require \"nokogiri\"; doc = File.open(\"file_scrapped_from_the_web_containing_semi-structured_list_of_names_you_want_to_parse.html\") { |f| Nokogiri::XML(f) }; doc.errors'"
   Level 7:
+    - Generalize and restructure your custom scripts as a R function or package and share with the world
     - Share your Regular Expression skill as a library for others to use
     - Realize you are writing code that support science, and that science takes a while, and maybe it would be good if your code had Unit Tests so you could come back to it in 5 years and have a chance of it working as you expect
     - Be bored at the content of a Software Carpentry workshop, realize you'd have more fun teaching the class, then teach the class after writing a new module and sharing it to the world  
