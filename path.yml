@@ -3,10 +3,10 @@
 Grails:
   - Link a taxonomist's phenotypes to genomicist's genotypes
   - Create the Graph of Life (on just 2 axes, no, no, not that kind of graph)
-  - Identify the Earth's Species
+  - Identify the Earth's species
   - Pick a list of species to send to Mars when The Apocalypse hits, justify the list
   - Create an environment where scientists do science and code simultaneously
-  - Engineer a tool to sort 7k insects from 4-~0.2 mm large from a single ethanol vial and a 3 day sample in Panama into morpho-species, sequencing and scanning them at the same time (that's 1 vial, 3 days work... good luck scaling)
+  - Engineer a tool to sort 7k insects (collected in 3 days in Panama) from 4-~0.2 mm large from a single ethanol vial into morpho-species in individual microtubes, sequencing and scanning them at the same time (that's 1 vial, 3 days work... good luck scaling)
 Stages:
   Level 1:
     - Learn Git. OK, that is maybe Level 4, maybe 5, but really, you're likely not going to read that far, so just learn it and reap the benefits
