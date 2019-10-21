@@ -116,5 +116,6 @@ Stages:
     - Wiki, Graph database, or Relational?  Yes.
     - Participate in an R/Python/Ruby for biodiversity informatics workshop to see what those crazy kids are doing these days (teach an old dog new tricks)
   Level 10:
+    - Taxonomies used by global biodiversity platforms seamlessly integrate the true phylogenetic information contained within local uses of informal (aggregate) names across space and time.
     - Design and implement out a universal persistent identifier model that works for biology (assumes you passed on to another plane of existence)
     - 42
