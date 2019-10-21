@@ -15,9 +15,11 @@ This was originally conceived as the basis for a Biodiversity 101 Talk for Biodi
 
 # Acknowledgements
 
-[José Luis Pereira](https://github.com/jlpereira) build the interactive website.
+[José Luis Pereira](https://github.com/jlpereira) built the interactive website.
 
 The initial list of ideas was dumped during a couple hours of self-reflection, many are memes, tropes, etc.  that most certainly did not originate with the original author. We'll be cross-referencing as time goes on.  Feel free to PR with a citation to the source of any point.
+
+This is the [original talk about the project](https://mjy.github.io/presentations/2019/Biodiversity101WorkshopLeiden/index.html).
 
 # Organization
 ## Grails
